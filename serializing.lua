@@ -1,5 +1,5 @@
 local M = {}
-M.file = nil
+M.currentFile = nil
 
 function M:setFile(file)
     self.currentFile = tostring(file)
